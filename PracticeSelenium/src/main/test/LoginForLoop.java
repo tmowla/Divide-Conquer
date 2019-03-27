@@ -11,7 +11,7 @@ public class LoginForLoop {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		String credentials [][] = {{"Username: amipavelo", "Password: tmowla0011"}, {"Username: mowlatanbir", "Password: tmowla1100"}};
+		String credentials [][] = {{"Username: amipavelo", "Password: tanmow00"}, {"Username: mowlatanbir", "Password: tanmow00"}};
 		String userName = null;
 		String password = null;
 		

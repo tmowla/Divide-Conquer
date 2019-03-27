@@ -21,7 +21,7 @@ public class SigninGmail {
 //		waitTime.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("identifierId")));
 		
 		WebElement emailInput = chromeDriver.findElement(By.id("identifierId"));
-		emailInput.sendKeys("amipavelo");
+		emailInput.sendKeys("amipavelo"); 
 		jsE.executeScript("arguments[0].setAttribute('style', 'background: None; border: 2px solid red;');", emailInput);
 		
 		WebElement nextButton = chromeDriver.findElement(By.xpath("//span[text()='Next']")); //tagName[@AttributeName = 'AttributeValue'] //tagName[AttributeName() = 'AttributeValue']
